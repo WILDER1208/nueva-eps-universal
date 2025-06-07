@@ -1,0 +1,138 @@
+Manual de Usuario para el Sistema de Información de la EPS Salud Universal
+Este manual está diseñado para orientar a los usuarios en el uso del sistema de información que facilita la gestión de las actividades relacionadas con la atención al usuario en medicina externa de la EPS Salud Universal. El sistema está dividido en tres tipos de usuarios: pacientes, doctores y administrativos. A continuación, se detallan las funcionalidades de cada uno de estos roles.
+
+1. Introducción
+La EPS Salud Universal ha implementado un sistema para mejorar la gestión de las actividades en medicina externa. El sistema permite que pacientes, doctores y administrativos gestionen información de manera eficiente, registrando desde la afiliación de pacientes hasta la programación y el seguimiento de citas médicas.
+
+2. Usuarios del Sistema
+2.1 Pacientes
+Los pacientes pueden acceder al sistema para agendar citas, consultar su historial médico, y mantener actualizada su información personal.
+
+2.2 Doctores
+Los doctores gestionan las consultas de los pacientes, registran sus intervenciones, prescriben tratamientos, y revisan la evolución médica de los pacientes.
+
+2.3 Administrativos
+El personal administrativo gestiona la información de las unidades médicas, la asignación de doctores a unidades, la afiliación de pacientes y el control general del sistema.
+
+3. Acceso al Sistema
+3.1 Creación de Cuenta de Usuario
+Tanto pacientes como doctores deben crear una cuenta para acceder al sistema. La cuenta debe incluir los siguientes datos:
+
+Para los Doctores:
+Identificación
+
+Nombre
+
+Apellido
+
+Dirección
+
+Teléfono
+
+Especialidad
+
+Jornada Laboral (Matinal/Vespertina)
+
+Contraseña
+
+Para los Pacientes:
+Número de identificación
+
+Nombre
+
+Apellido
+
+Dirección
+
+Edad
+
+Tipo de afiliación
+
+Fecha de ingreso
+
+Contraseña
+
+Una vez que los datos se han registrado correctamente, se generará un nombre de usuario y una contraseña para ingresar al sistema.
+
+4. Funcionalidades del Sistema
+4.1 Manejo de Unidades Médicas
+Administrativo:
+Registrar una unidad médica: Se debe ingresar el nombre de la unidad, su identificador y la planta o ubicación donde se encuentra.
+
+Asignar un doctor a una unidad médica: Cada unidad tiene un doctor asignado, quien será el responsable de la atención en dicha unidad.
+
+4.2 Manejo de Doctores
+Administrativo:
+Registrar Doctores: Se debe ingresar la información básica del doctor (nombre, apellido, especialidad, etc.), junto con su jornada laboral y una contraseña.
+
+Asignación de Citas: Los doctores pueden atender un máximo de 10 citas por día, las cuales se gestionan a través del sistema.
+
+Doctor:
+Registrar intervenciones: Durante las consultas, el doctor debe registrar la fecha de atención, los síntomas observados y el tratamiento prescrito a cada paciente.
+
+Consultar historia clínica: El doctor puede consultar la historia clínica de sus pacientes para evaluar su evolución médica.
+
+4.3 Manejo de Pacientes
+Administrativo:
+Registrar paciente: Los administrativos registran a los pacientes ingresando su información básica y tipo de afiliación. Al completar la afiliación, se les proporciona una contraseña para acceder al sistema.
+
+Paciente:
+Agendar cita: Los pacientes pueden agendar una cita en cualquier unidad, siempre y cuando haya disponibilidad del doctor. El paciente debe ingresar su información y seleccionar la unidad y el doctor deseado.
+
+Consultar historial médico: El paciente puede ver el historial médico completo de sus consultas pasadas.
+
+5. Proceso de Agendamiento de Citas
+Paciente:
+Inicia sesión con su usuario y contraseña.
+
+Selecciona la opción para agendar una cita.
+
+Escoge la unidad médica donde desea ser atendido.
+
+Selecciona el doctor disponible en esa unidad.
+
+Confirma la fecha y hora disponibles.
+
+Recibe una confirmación de la cita.
+
+Doctor:
+Inicia sesión con su usuario y contraseña.
+
+Consulta su agenda para el día.
+
+Se muestra la lista de citas agendadas, limitadas a 10 por día.
+
+Realiza las consultas de los pacientes en su unidad asignada.
+
+Registra las intervenciones realizadas y el tratamiento prescrito.
+
+6. Gestión de Consultas y Registros
+Doctor:
+Durante la consulta, el doctor podrá registrar:
+
+Fecha de atención.
+
+Síntomas observados en el paciente.
+
+Tratamiento prescrito.
+
+El doctor puede acceder a la historia clínica del paciente para realizar un seguimiento adecuado de su evolución médica.
+
+Paciente:
+El paciente puede consultar su historial médico para verificar las consultas previas, síntomas registrados y tratamientos recomendados por los doctores.
+
+7. Seguridad y Privacidad
+El sistema está diseñado para proteger la privacidad de los usuarios. Se utilizan contraseñas seguras para ingresar al sistema, y solo el personal autorizado puede acceder a la información sensible de los pacientes y doctores. Además, se realizan auditorías periódicas para garantizar el cumplimiento de las políticas de privacidad.
+
+8. Soporte y Ayuda
+En caso de problemas con el sistema, los usuarios pueden contactar al soporte técnico de la EPS Salud Universal mediante los siguientes canales:
+
+Teléfono: (insertar número de teléfono)
+
+Correo electrónico: (insertar correo electrónico de soporte)
+
+9. Cierre de Sesión
+Para cerrar sesión en el sistema, los usuarios deben hacer clic en el botón "Cerrar sesión" en la parte superior derecha de la pantalla. Esto garantiza que la sesión se cierre de manera segura.
+
+10. Conclusión
+Este sistema de gestión está diseñado para mejorar la eficiencia de las actividades en medicina externa, facilitando la programación de citas, el registro de consultas y el seguimiento de los pacientes. Los usuarios deben asegurarse de seguir los procedimientos descritos para aprovechar todas las funcionalidades disponibles y garantizar una experiencia satisfactoria y segura.
