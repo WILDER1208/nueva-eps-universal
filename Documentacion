@@ -1,0 +1,50 @@
+EPS Salud Universal
+Descripción del Proyecto
+Este proyecto fue desarrollado como parte de la asignatura Ingeniería de Software, aplicando la metodología ágil Scrum.
+
+EPS Salud Universal es un sistema de información que permite a pacientes, doctores y administrativos llevar un control eficiente y efectivo de todas las actividades que se registran en una clínica en la parte de atención al usuario por medicina externa.
+
+El sistema está dividido en varias unidades (pediatría, fractura, general, entre otros). Cada unidad está codificada mediante una codificación identificadora, su nombre y la línea en la que se encuentra ubicada.
+Funcionalidades Principales
+- Gestión de Doctores: Se registran con su nombre, apellido, dirección, teléfono, especialidad, ubicación y la unidad médica donde trabajan.
+- Registro de Pacientes: Se registra nombre, dirección, tipo de sangre, género, edad, entre otros.
+- Agenda de Consultas: Los doctores pueden registrar intervenciones realizadas a pacientes, dar de alta y generar reportes.
+- Reportes PDF: Generación de reportes clínicos utilizando FPDF.
+- Gestión de Citas: Las citas son agendadas por la unidad médica y se asignan a doctores disponibles.
+Tecnologías Utilizadas
+- PHP
+- MySQL
+- HTML5 / CSS3
+- JavaScript
+- FPDF (para generación de PDFs)
+- Apache (con archivo .htaccess)
+ Requisitos del Sistema
+- Servidor web Apache
+- PHP 7.x o superior
+- MySQL 5.x o superior
+- Navegador actualizado
+ Instalación
+1. Clona el repositorio o descarga el archivo ZIP.
+2. Coloca el contenido en el directorio de tu servidor web (por ejemplo, htdocs en XAMPP).
+3. Crea una base de datos en MySQL e importa el archivo citas_medicas.sql.
+4. Configura la conexión a la base de datos en: backend/bd/Conexion.php
+5. Accede desde tu navegador a http://localhost/nueva-eps-universal
+ Estructura del Proyecto
+
+nueva-eps-universal/
+│
+├── index.php
+├── citas_medicas.sql
+├── .htaccess
+├── backend/
+│   ├── ajax/
+│   ├── bd/
+│   ├── css/
+│   ├── js/
+│   ├── fpdf/
+│   ├── pages/
+│   ├── php/
+│   └── reportes/
+└── frontend/ (si aplica)
+
+
